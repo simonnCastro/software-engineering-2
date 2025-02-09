@@ -1,11 +1,11 @@
 # Problem scenario:
 
-Suppose we have three types of characters in a GameApp:
+## Suppose we have three types of characters in a GameApp:
 1. Knight: Attacks with a sword; uses 3 strategies to defend (shield, dodge, magic barrier)
 2. Wizard: Casts spells; uses magic barrier to defend
 3. Archer: Shoots arrows; uses dodge to to defend
 
-Implement two types of Strategy:
+## Implement two types of Strategy:
 
 A. DefenseStrategy
 1. Shield
@@ -17,7 +17,7 @@ B. AttackStrategy
 2.  ShootArrow
 3.  SwingSword  
 
-Refactor the existing codes and provide the UML Diagram:
+## Refactor the existing codes and provide the UML Diagram:
 
 ```java
 public class Character {
@@ -52,5 +52,5 @@ public class Character {
 }
 ```
 
-## UML Diagram
+# UML Diagram
 ![alt text](https://github.com/simonnCastro/software-engineering-2/blob/main/Lab%20Assignment%201%20%3A%20Strategy%20Pattern/uml-strategy-pattern.png)
